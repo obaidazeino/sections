@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+  background-color: #eee9de;
+  color: #333;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  max-width: 25em;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+img {
+  width: 100%;
+  max-width: 25em;
+  margin: 1.5em;
+  display: inline-block;
+}
+
+p {
+  margin: 2em 0;
+}
+
+.btn {
+  text-decoration: none;
+  border: 3px solid #666;
+  padding: .4em .75em .5em;
+  border-radius: 5px;
+  color: inherit;
+}
+
+.btn:hover {
+  background-color: #666;
+  color: #fff;
+}
